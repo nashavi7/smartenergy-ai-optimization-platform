@@ -26,4 +26,67 @@ Unlike traditional ML projects that stop at prediction, this system integrates *
 ---
 
 ##  System Architecture
+IoT Data Simulation → Feature Engineering → ML Model → Optimization Engine → AI Insights Dashboard
+
+---
+
+## Optimization Strategy
+
+The system uses **metaheuristic optimization algorithms**:
+
+- **GWO (Grey Wolf Optimization)**  
+- **PSO (Particle Swarm Optimization)**  
+
+These algorithms identify optimal time slots to:
+
+- Reduce peak energy consumption  
+- Shift load intelligently  
+- Improve operational efficiency  
+
+---
+
+## Sample Results
+
+- ⚡ Energy Reduction: ~3–5% (realistic optimization)  
+- 📈 Model Accuracy: R² ≈ 0.93  
+- 🔻 Peak Load Reduction achieved through scheduling  
+
+---
+
+## AI Insights
+
+The system automatically identifies:
+
+- Peak energy demand hours  
+- Low consumption periods  
+- Key drivers of energy usage (occupancy, time, etc.)  
+- Optimization impact on system behavior  
+
+---
+
+## Business Impact
+
+- Enables **data-driven decision making**  
+- Reduces operational energy costs  
+- Supports **sustainability and carbon reduction goals**  
+- Demonstrates real-world applicability of AI in smart infrastructure  
+
+---
+
+## Tech Stack
+
+- Python  
+- Streamlit  
+- Scikit-learn  
+- NumPy / Pandas  
+- Matplotlib  
+- Mealpy (GWO + PSO)  
+
+---
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
 
